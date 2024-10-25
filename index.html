@@ -14,47 +14,63 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        font-family: 'Stencil Std', fantasy;
+        color: rgb(255, 90, 255);
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        background-color: Black;
+        font-kerning: auto;
+      }
+      table {
+        border: 7px solid;
+        text-align: center;
+      }
+      th {
+        border: 7px inset;
+      }
+      h1 {
+        text-decoration: underline rgb(255, 90, 255);
+        -webkit-text-stroke-width: .01px;
+        -webkit-text-stroke-color: yellow;
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>PLATE OF MYSTERY SUBSTANCE</h1>
 
-<body>
+    <h2>Contents:</h2>
 
-  <h1>Luca's Recipe Book</h1>
+  <p>
+      <a href="?">Recipe #1</a>
+    </p>
+    
+    
 
-  <h2>Contents:</h2>
+    <h2 id="?">Recipe #1</h2>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
 
-  <h2 id="?">Recipe #1</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td>Soda</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      <em>Source: <a href="?">Some recipes websites</a></em>
+    </p>
+  </body>
 </html>
