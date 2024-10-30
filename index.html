@@ -14,63 +14,101 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Project: Recipe book</title>
-    <meta charset="utf-8" />
-    <style>
-      body {
-        font-family: 'Stencil Std', fantasy;
-        color: rgb(255, 90, 255);
-        text-align: center;
-        width: 60%;
-        margin: auto;
-        background-color: Black;
-        font-kerning: auto;
-      }
-      table {
-        border: 7px solid;
-        text-align: center;
-      }
-      th {
-        border: 7px inset;
-      }
-      h1 {
-        text-decoration: underline rgb(255, 90, 255);
-        -webkit-text-stroke-width: .01px;
-        -webkit-text-stroke-color: yellow;
-      }
-    </style>
-  </head>
+  <div class="bord1">
+    <div class="bord2">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Danfo&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Danfo&family=Shrikhand&display=swap"
+          rel="stylesheet"
+        />
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8" />
+        <style>
+          html {
+            border: 30px solid blue;
+          }
+          .bord1 {
+            border: 20px dotted yellow;
+          }
+          .bord2 {
+            border: 20px dotted blue;
+          }
+          .bord3 {
+            border: 30px dotted yellow;
+          }
+          .bord4 {
+            border: 30px dotted blue;
+          }
+          body {
+            text-align: center;
+            margin: auto;
+            background-color: #e5340b;
+            font-kerning: auto;
+          }
+          table {
+            border: 20px yellow solid;
+            text-align: center;
+          }
+          th {
+            border: 10px groove yellow;
+          }
+          h1 {
+            border: 20px groove yellow;
+            background-color: blue;
+            color: yellow;
+            width: 500px;
+            margin: auto;
+            text-align: center;
+            font-family: "Danfo";
+            font-size: 80px;
+            text-decoration: underline dotted yellow;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #005f;
+          }
+          h2 {
+            font-family: "shrikhand";
+            color: yellow;
+            font-size: 40px;
+            letter-spacing: 1px
+          }
+        </style>
+      </head>
 
-  <body>
-    <h1>PLATE OF MYSTERY SUBSTANCE</h1>
+      <body>
+        <div class="bord3">
+          <div class="bord4">
+            <h1>PLATE OF MYSTERY SUBSTANCE</h1>
+          </div>
+        </div>
+        <h2>Contents:</h2>
 
-    <h2>Contents:</h2>
+        <center>
+          <table>
+            <thead>
+              <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+              </tr>
+              <tr>
+                <td>Soda</td>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </center>
 
-  <p>
-      <a href="?">Recipe #1</a>
-    </p>
-    
-    
-
-    <h2 id="?">Recipe #1</h2>
-
-
-    <table>
-      <thead>
-        <tr>
-          <th>Ingredients</th>
-          <th>Quantity</th>
-        </tr>
-        <tr>
-          <td>Soda</td>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-
-    <p>
-      <em>Source: <a href="?">Some recipes websites</a></em>
-    </p>
-  </body>
+        <p>
+          <em>Source: <a href="?">Some recipes websites</a></em>
+        </p>
+      </body>
+    </div>
+  </div>
 </html>
